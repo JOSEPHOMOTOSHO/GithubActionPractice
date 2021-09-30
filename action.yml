@@ -1,0 +1,7 @@
+name:"Hello World",
+description:"Saying Hello to the world"
+author:"Omotosho Joseph <Joseph.omotosho98@gmail.com>"
+
+runs:
+  using: "node12"
+  main: "index.js"
