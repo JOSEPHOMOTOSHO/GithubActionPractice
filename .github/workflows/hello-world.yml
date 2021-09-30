@@ -1,6 +1,6 @@
 name: Hello World
 
-on:[push,pull_request]
+on: [push,pull_request]
 
 jobs:
   hello-world:
@@ -8,6 +8,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      -uses: ./
+      - uses: ./
  
